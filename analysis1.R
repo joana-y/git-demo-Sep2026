@@ -6,3 +6,5 @@ y <- 2*rnorm(100,mean=0,sd=20)
 #fit linear model
 fic <- lm(y~x)
 summary(fit)
+
+z <- runif(5,1,100)
